@@ -1,0 +1,85 @@
+
+.h1 {
+  text-align: center;
+  background-color: bisque;
+  color: #8b4513;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.form {
+  background-color: #f5f5dc; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(120, 118, 118, 0.1);
+}
+
+label {
+  color: #8b4513; 
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #8b4513; 
+  border-radius: 5px;
+  background-color: #fffaf0; 
+}
+
+input[type="checkbox"] {
+  margin-left: 10px;
+  gap: 10px;
+  display: flex; 
+  transform: scale(1.5);
+  background-color: #6b8e23;
+}
+
+button {
+  background-color: #556b2f; 
+  color: #ffffff; 
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6b8e23; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  background-color: #fffaf0; 
+  width: 50%;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #8b4513; 
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+li button{
+  margin-left: auto;
+}
+
+
+
+.completed {
+  text-decoration: line-through;
+  background-color: #008000;
+}
+
+li div {
+  display: flex;
+  
+}
