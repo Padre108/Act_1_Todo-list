@@ -1,85 +1,112 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0; /* Light grey background for contrast */
+  color: #333; /* Dark grey text for readability */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
 .h1 {
   text-align: center;
-  background-color: bisque;
-  color: #8b4513;
-  padding: 10px;
-  border-radius: 8px;
+  color: #8b4513; /* SaddleBrown */
+  margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
 }
 
 .form {
-  background-color: #f5f5dc; 
+  background-color: #fff; /* White background for simplicity */
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(120, 118, 118, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
 }
 
 label {
-  color: #8b4513; 
+  color: #8b4513; /* SaddleBrown */
   font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
 }
 
-input[type="text"] {
-  width: 90%;
+input[type="text"],
+input[type="datetime-local"] {
+  width: 100%;
   padding: 10px;
   margin: 10px 0;
-  border: 1px solid #8b4513; 
+  border: 1px solid #8b4513; /* SaddleBrown */
   border-radius: 5px;
-  background-color: #fffaf0; 
-}
-
-input[type="checkbox"] {
-  margin-left: 10px;
-  gap: 10px;
-  display: flex; 
-  transform: scale(1.5);
-  background-color: #6b8e23;
+  background-color: #fffaf0; /* FloralWhite */
 }
 
 button {
-  background-color: #556b2f; 
-  color: #ffffff; 
+  background-color: #556b2f; /* DarkOliveGreen */
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
 }
 
 button:hover {
-  background-color: #6b8e23; 
+  background-color: #6b8e23; /* OliveDrab */
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 li {
   display: flex;
   align-items: center;
-  background-color: #fffaf0; 
-  width: 50%;
+  background-color: #fffaf0; /* FloralWhite */
   margin: 5px 0;
   padding: 10px;
-  border: 1px solid #8b4513; 
+  border: 1px solid #8b4513; /* SaddleBrown */
   border-radius: 5px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+li span {
+  color: #8b4513; /* SaddleBrown */
+  margin-right: 10px; /* Add spacing after the task text */
+}
 
-
-li button{
+li button {
   margin-left: auto;
+  background-color: #8b4513; /* SaddleBrown */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 100px; /* Fixed width for the remove button */
 }
 
-
+li button:hover {
+  background-color: #a0522d; /* Sienna */
+}
 
 .completed {
   text-decoration: line-through;
-  background-color: #008000;
+  color: #a9a9a9; /* DarkGray */
 }
 
-li div {
-  display: flex;
-  
+div span {
+  color: #8b4513;
+  margin-left: 10px;
+}
+
+div p {
+  color: #8b4513;
+  text-align: center;
+  margin-top: 20px;
 }

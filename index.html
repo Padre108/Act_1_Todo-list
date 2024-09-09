@@ -14,13 +14,20 @@
       <form action="/action_page.php">
         <label for="task">Input Task:</label>
         <input type="text" id="task" placeholder="Add a task"><br><br>
+        <label for="deadline">Deadline:</label>
+        <input type="datetime-local" id="deadline"><br><br>
         <button id="task-button" onclick="addTask()" type="button">Submit</button>
       </form>
       <div>
+        <button id="sort-button" type="button">Sort by Deadline</button>
+      </div>
+      <div>
         <ul id="task-list"></ul>
+      </div>
+      <div>
+        <p>Completed Tasks: <span id="completed-count">0</span></p>
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
-
